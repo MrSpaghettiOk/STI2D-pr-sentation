@@ -1,3 +1,8 @@
+body{
+    background-color: antiquewhite;
+    color: black;
+}
+
 h1{
     text-align: center;
 }
@@ -15,4 +20,33 @@ h1{
 .btn:hover {
     background-color: darkred;
     transform: scale(1.05);
+}
+.darkmode{
+    background-color: #070b1d;
+    color: beige;
+}
+#theme-switch{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right:20px;
+}
+#theme-switch svg{
+    fill: antiquewhite;
+}
+#theme-switch svg:last-child{
+    display: none;
+}
+.darkmode #theme-switch svg:first-child{
+    display: none;
+}
+.darkmode #theme-switch svg:last-child{
+    display: block;
 }
