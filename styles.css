@@ -50,3 +50,18 @@ h1{
 .darkmode #theme-switch svg:last-child{
     display: block;
 }
+.darkmode table{
+    border: 1px solid beige;
+}
+.darkmode th{
+    border: 1px solid beige;
+}
+.darkmode td{
+    border: 1px solid beige;
+}
+.darkmode tr{
+    border: 1px solid beige;
+}
+table, th, td, tr{
+    border: 1px solid black;
+}
