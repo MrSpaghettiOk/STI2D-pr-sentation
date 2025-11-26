@@ -1,4 +1,8 @@
-.darkmode .ascii{
-    background-color: beige;
+.darkmode .imgs{
+    background-color: antiquewhite;
     width: 47em;
+}
+body{
+    font-family: "Google Sans Code", monospace;
+    font-size: 22px;
 }
