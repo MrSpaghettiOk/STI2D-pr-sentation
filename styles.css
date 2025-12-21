@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 241, 220);
+    background-color: antiquewhite;
     color: black;
     font-family: 'Open Sans', serif;
     font-size: 22px;
@@ -11,22 +11,22 @@ h1{
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: rgb(0, 102, 255);
+    background-color: rgb(20, 197, 220);
     color: white;
     text-decoration: none;
     border-radius: 8px;
     font-weight: bold;
     transition: 0.2s;
-    margin: 10px;
+    text-align: center;
 }
 .btn:hover {
     background-color: darkred;
     transform: scale(1.05);
 }
 .darkmode{
-    transition: 0.5s;
     background-color: #070b1d;
-    color: antiquewhite;
+    color: beige;
+    transition: 0.5s;
 }
 #theme-switch{
     height: 50px;
@@ -54,16 +54,16 @@ h1{
     display: block;
 }
 .darkmode table{
-    border: 1px solid beige;
+    border: 1px solid antiquewhite;
 }
 .darkmode th{
-    border: 1px solid beige;
+    border: 1px solid antiquewhite;
 }
 .darkmode td{
-    border: 1px solid beige;
+    border: 1px solid antiquewhite;
 }
 .darkmode tr{
-    border: 1px solid beige;
+    border: 1px solid antiquewhite;
 }
 table, th, td, tr{
     border: 1px solid black;
@@ -74,14 +74,17 @@ th{
 tr{
     height: 4em;
 }
+td{
+    text-align: center;
+}
 .milieu{
+    margin-left: 12.5em;
+    margin-right: 12.5em;
+}
+table{
     width: 1250px;
     margin-left: auto;
     margin-right: auto;
-}
-.g{
-    margin-left: 200px;
-    margin-right: 200px;
 }
 .imgmil{
     text-align: center;
