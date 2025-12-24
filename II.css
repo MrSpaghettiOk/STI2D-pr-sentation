@@ -14,5 +14,6 @@
     transform: scale(1.05);
 }
 body{
-    font-family: "Inter", sans-serif;
+    font-family: "Google Sans Code", monospace;
+    font-size: 22px;
 }
